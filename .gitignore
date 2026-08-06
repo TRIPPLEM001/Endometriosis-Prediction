@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Model files (optional)
+*.pkl
+
+# Large datasets (optional)
+data/raw/
+
+# macOS
+.DS_Store
+models/*.pkl
