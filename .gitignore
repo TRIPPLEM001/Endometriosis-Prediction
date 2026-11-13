@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Secrets (keep only .env.example)
+.env
+.env.*
+!.env.example
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db# Frontend editing backups
+*.old*.txt
+App.old*.txt
+index.old*.txt
+vite.config.old*.txt
+
+# Leftover archives
+*.zip
+
+# Frontend backups made during editing
+*.old.txt
+*.old2.txt
+*.old3.txtgit status --short | Select-Object -First 30
+
+# Leftover virtual environment folders inside backend
+backend/Lib/
+backend/Scripts/
+backend/Include/
+backend/pyvenv.cfg
+
+# Old backups
+*_old.txt
